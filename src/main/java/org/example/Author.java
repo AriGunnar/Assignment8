@@ -1,6 +1,8 @@
 package org.example;
 
 public class Author {
+    String name;
+
     public String getName() {
         return name;
     }
@@ -12,6 +14,4 @@ public class Author {
     public Author(String name) {
         this.name = name;
     }
-
-    String name;
 }
